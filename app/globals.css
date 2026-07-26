@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background-color: #A67C52;
+  color: #FFFFFF;
+}
+
+body {
+  background-image: radial-gradient(rgba(24, 24, 27, 0.05) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+.btn-primary {
+  background-color: #A67C52;
+  color: #FFFFFF;
+  padding: 0.7rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(166, 124, 82, 0.25);
+}
+.btn-primary:hover {
+  background-color: #8F6640;
+  box-shadow: 0 6px 18px rgba(166, 124, 82, 0.35);
+}
+.btn-primary:active {
+  transform: scale(0.98);
+}
+.btn-primary:disabled {
+  opacity: 0.5;
+  box-shadow: none;
+}
+
+.btn-secondary {
+  border: 1.5px solid #18181B;
+  color: #18181B;
+  padding: 0.65rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  display: inline-block;
+  text-align: center;
+}
+.btn-secondary:hover {
+  background-color: #18181B;
+  color: #FFFFFF;
+}
+
+.input-field {
+  width: 100%;
+  border-radius: 0.65rem;
+  border: 1px solid rgba(24, 24, 27, 0.13);
+  background-color: #FFFFFF;
+  padding: 0.65rem 1rem;
+  font-size: 0.9rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.input-field::placeholder {
+  color: rgba(24, 24, 27, 0.3);
+}
+.input-field:focus {
+  outline: none;
+  border-color: #A67C52;
+  box-shadow: 0 0 0 3px rgba(166, 124, 82, 0.15);
+}
+
+.input-pill {
+  border-radius: 9999px;
+  border: 1px solid rgba(24, 24, 27, 0.13);
+  background-color: #FFFFFF;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.input-pill:focus {
+  outline: none;
+  border-color: #A67C52;
+  box-shadow: 0 0 0 3px rgba(166, 124, 82, 0.15);
+}
+.card {
+  border-radius: 0.9rem;
+  border: 1px solid rgba(24, 24, 27, 0.08);
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px rgba(24, 24, 27, 0.05);
+}
+
+.badge-accent {
+  display: inline-block;
+  border-radius: 9999px;
+  background-color: rgba(166, 124, 82, 0.12);
+  color: #8F6640;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 0.2rem 0.65rem;
+}
+
+.eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #A67C52;
+}
