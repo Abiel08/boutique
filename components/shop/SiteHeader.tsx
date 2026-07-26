@@ -29,7 +29,7 @@ export function SiteHeader({ nom, logoUrl, categories }: SiteHeaderProps) {
               alt={nom}
               width={36}
               height={36}
-              className="rounded-full object-cover"
+              className="h-9 w-9 shrink-0 rounded-full object-cover"
             />
           ) : (
             <div className="flex h-9 w-9 items-center justify-center rounded-full bg-accent text-sm font-semibold text-paper">
