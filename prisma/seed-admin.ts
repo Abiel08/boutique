@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * Script pour créer le compte admin initial.
  * Usage : npx tsx prisma/seed-admin.ts
